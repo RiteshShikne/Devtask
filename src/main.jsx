@@ -12,6 +12,7 @@ import Layout from './components/Layout.jsx'
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path='/' element={<Layout />}>
+      <Route index element={<LandingPage />} />
       <Route path='LandingPage' element={<LandingPage />} />
       <Route path='LoginScreen' element={<LoginScreen />} />
       <Route path='SignupScreen' element={<SignupScreen />} />
