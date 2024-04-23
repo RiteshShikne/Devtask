@@ -2,14 +2,14 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
   
 
-import { Route, RouterProvider, createBrowserRouter, createRoutesFromElements } from 'react-router-dom'
+import { Route, RouterProvider, createHashRouter, createRoutesFromElements } from 'react-router-dom'
 import LandingPage from './components/LandingPage.jsx'
 import LoginScreen from './components/LoginScreen.jsx'
 import SignupScreen from './components/SignupScreen.jsx'
 import Profilepage from './components/Profilepage.jsx'
 import Layout from './components/Layout.jsx'
 
-const router = createBrowserRouter(
+const router = createHashRouter(
   createRoutesFromElements(
     <Route path='/' element={<Layout />}>
       <Route index element={<LandingPage />} />
