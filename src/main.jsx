@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
   
-import './index.css'
+
 import { Route, RouterProvider, createBrowserRouter, createRoutesFromElements } from 'react-router-dom'
 import LandingPage from './components/LandingPage.jsx'
 import LoginScreen from './components/LoginScreen.jsx'
