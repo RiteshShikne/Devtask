@@ -3,9 +3,9 @@ import { Outlet, Router} from 'react-router-dom'
 function Layout() {
   return (
     <>
-    <Router>
+    
     <Outlet/>
-    </Router>
+    
      
     </>
   )
