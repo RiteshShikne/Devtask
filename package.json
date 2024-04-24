@@ -1,10 +1,6 @@
 {
   "name": "devtask",
-<<<<<<< HEAD
   "homepage": "https;//riteshshikne.github.io/devtask",
-=======
-  "homepage": "./",
->>>>>>> 387272e58ff67d7bc971740428533be104525f15
   "private": false,
   "version": "0.0.0",
   "type": "module",
